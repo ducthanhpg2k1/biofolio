@@ -1,5 +1,13 @@
 @import "../../../.././styles/color.scss";
 
+.container{
+  width: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .containerSetupPage {
   display: flex;
   flex-direction: column;
@@ -59,5 +67,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:8px
+  gap:16px
 }
