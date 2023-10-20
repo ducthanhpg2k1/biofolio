@@ -1,4 +1,5 @@
 import { PlusOutlined } from '@ant-design/icons';
+import { Space } from 'antd';
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 
@@ -16,7 +17,7 @@ const NoPage = (props: IProps) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <Space className={styles.content}>
         <Image src='/static/icons/NoPage.svg' alt='icons' width={550} height={580} />
         <p className={styles.title}>{t('title_no_page')}</p>
         <p className={styles.description}>{t('description_no_page')}</p>
@@ -28,7 +29,7 @@ const NoPage = (props: IProps) => {
         >
           {t('btn_create_new_page')}
         </ButtonCustom>
-      </div>
+      </Space>
     </div>
   );
 };
