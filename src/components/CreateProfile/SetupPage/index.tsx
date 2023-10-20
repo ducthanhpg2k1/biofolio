@@ -1,4 +1,3 @@
-import { UploadOutlined } from '@ant-design/icons';
 import { Col, Form, Mentions, Row, Space } from 'antd';
 import Dragger from 'antd/es/upload/Dragger';
 import { UploadProps } from 'antd/lib';
