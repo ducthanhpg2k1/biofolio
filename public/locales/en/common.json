@@ -1,1 +1,8 @@
-{}
+{
+ "set_up_page":"Set up Page",
+ "select_template":"Select Template",
+ "customize":"Customize",
+  "btn_back":"Back",
+  "btn_next":"Next"
+
+}

@@ -1,0 +1,21 @@
+{
+  "title_step_1":"Hi thereee! First let’s fill up some basic information:",
+  "label_avatar":"Avatar Image",
+  "description_avatar":"Let the world know who you are. Selfies are recommended!",
+  "btn_upload_images":"Upload Image",
+  "description_upload_image":"Image should be vertical, at least 375x812px, and something else",
+  "label_site":"Site Title",
+  "description_site":"A good title makes people remember you better. (think more)",
+  "placeholder_site":"Enter text",
+  "label_cover_image":"Cover Image",
+  "description_cover_image":"First impression is always important. Make it on point!",
+  "label_url":"Site URL",
+  "message_url":"URL is not a valid url",
+  "description_url":"Last but not least, put the URL to help people find you",
+  "placeholder_url":"http://biofolio.link/avatarist"
+
+
+
+
+
+}

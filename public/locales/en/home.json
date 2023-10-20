@@ -1,3 +1,5 @@
 {
-  "home.title": "Home"
+  "title_no_page":"Create your first page",
+  "description_no_page":"Build a portfolio to show who you are and what you’re made of.",
+  "btn_create_new_page":"Create new page"
 }

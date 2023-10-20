@@ -1,0 +1,63 @@
+@import "../../../.././styles/color.scss";
+
+.containerSetupPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.label{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.description{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  color:$gray
+}
+
+.dragger{
+  :global {
+    .ant-upload.ant-upload-drag{
+      min-height: 147px;
+      background: #FFF;
+      border: 4px dashed #DFE3E8;
+      border: 1px dashed var(--text-primary, #171717);
+      display: flex;
+      align-items: center;
+    }
+
+
+    
+   
+  }
+}
+
+
+
+.buttonUpload{
+  background: $black !important;
+  &:hover {
+    border-color: none !important;
+  }
+}
+.btnUpload{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:8px
+}

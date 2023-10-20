@@ -1,15 +1,24 @@
+import { Layout } from 'antd';
 import dynamic from 'next/dynamic';
 
+import styles from './index.module.scss';
+
 const MainHeader = dynamic(() => import('../components/MainHeader'));
-const Footer = dynamic(() => import('../components/Footer'));
+const MainFooter = dynamic(() => import('../components/MainFooter'));
+
+const { Content } = Layout;
 
 const MainLayout = ({ children }: any) => {
   return (
-    <>
-      <MainHeader />
-      <main>{children}</main>
-      <Footer />
-    </>
+    <Layout className={styles.containerLayout}>
+      <div className={styles.mainHeaderLayout}>
+        <MainHeader />
+      </div>
+      <Content className={styles.contentLayout}>{children}</Content>
+      <div className={styles.footer}>
+        <MainFooter />
+      </div>
+    </Layout>
   );
 };
 

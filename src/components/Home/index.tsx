@@ -1,14 +1,15 @@
-import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 
-import { useTest } from '@hooks/test';
-
-import styles from './index.module.scss';
+import NoPage from '@components/NoPage';
+import { ROUTE_PATH } from '@utils/common';
 
 function Home() {
-  useTest();
-  const { t } = useTranslation('home');
+  const router = useRouter();
+  const handleCreateNewPage = () => {
+    router.push(ROUTE_PATH.CREATE_PAGE);
+  };
 
-  return <h1 className={styles.h1}>{t('home.title')}</h1>;
+  return <NoPage handleCreateNewPage={handleCreateNewPage} />;
 }
 
 export default Home;

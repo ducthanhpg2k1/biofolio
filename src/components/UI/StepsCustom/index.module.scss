@@ -1,0 +1,56 @@
+@import '../../../../styles/color.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.card{
+  :global {
+    .ant-card-body{ 
+      padding:12px 24px;
+    } 
+  }
+}
+
+.step{
+  width: 24px;
+  height: 24px;
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardStep{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  color: #737373;
+  :global {
+    .ant-card-body{ 
+      padding:12px 24px
+    } 
+  }
+}
+
+.activeCardStep{
+  background: $black;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  :global {
+    .ant-card-body{ 
+      padding:12px 24px
+    } 
+  }
+}
+
+
+.btn{
+  height: 40px;
+}

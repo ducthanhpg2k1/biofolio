@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap:24px
+}
+
+.description{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color:#171717
+}
+
+.btnCreateNewPage{
+  width: 204px;
+  height: 48px;
+}
